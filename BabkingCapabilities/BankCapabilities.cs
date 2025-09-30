@@ -89,7 +89,7 @@ namespace Banking.Capabilities
             {
                 int score = 0;
                 if (b.SameDayTransfer && request.RequireSameDay) score += 10;
-                if ((b.BearerChargeTypes & request.AlledCharges & BearerChargeType.SHA) != 0) score += 5;
+                if ((b.BearerChargeTypes & request.AllowedCharges & BearerChargeType.SHA) != 0) score += 5;
                 return (Bank: b, Score: score);
             });
         }
