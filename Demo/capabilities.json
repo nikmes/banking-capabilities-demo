@@ -1,0 +1,62 @@
+[
+  {
+    "BankCode": "BANKA-GB2L",
+    "Currencies": ["USD", "EUR", "GBP"],
+    "SameDayTransfer": true,
+    "BearerChargeTypes": "SHA, OWN"
+  },
+  {
+    "BankCode": "BANKB-DEFF",
+    "Currencies": ["EUR", "USD"],
+    "SameDayTransfer": false,
+    "BearerChargeTypes": "SHA, BEN"
+  },
+  {
+    "BankCode": "BANKC-US33",
+    "Currencies": ["USD", "CAD"],
+    "SameDayTransfer": true,
+    "BearerChargeTypes": "OWN, BEN"
+  },
+  {
+    "BankCode": "BANKD-JPJT",
+    "Currencies": ["JPY", "USD", "AUD"],
+    "SameDayTransfer": true,
+    "BearerChargeTypes": "SHA, OWN"
+  },
+  {
+    "BankCode": "BANKE-SGSG",
+    "Currencies": ["SGD", "USD", "EUR"],
+    "SameDayTransfer": false,
+    "BearerChargeTypes": "SHA, BEN"
+  },
+  {
+    "BankCode": "BANKF-CHZZ",
+    "Currencies": ["CHF", "EUR", "USD"],
+    "SameDayTransfer": true,
+    "BearerChargeTypes": "SHA, OWN, BEN"
+  },
+  {
+    "BankCode": "BANKG-AU2S",
+    "Currencies": ["AUD", "NZD", "USD"],
+    "SameDayTransfer": false,
+    "BearerChargeTypes": "SHA, OWN"
+  },
+  {
+    "BankCode": "BANKH-CA11",
+    "Currencies": ["CAD", "USD", "GBP"],
+    "SameDayTransfer": true,
+    "BearerChargeTypes": "OWN, BEN"
+  },
+  {
+    "BankCode": "BANKI-UAE1",
+    "Currencies": ["AED", "USD"],
+    "SameDayTransfer": false,
+    "BearerChargeTypes": "SHA, BEN"
+  },
+  {
+    "BankCode": "BANKJ-QAQA",
+    "Currencies": ["QAR", "USD", "EUR"],
+    "SameDayTransfer": true,
+    "BearerChargeTypes": "SHA, OWN"
+  }
+]
